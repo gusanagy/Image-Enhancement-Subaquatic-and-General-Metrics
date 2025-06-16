@@ -23,14 +23,15 @@ This repository implements a collection of image enhancement quality metrics for
 | Color & Illumination Metrics | Luminance Contrast Ratio | Measures difference between light and dark areas. | ❌ | ❌ | ☐ |
 | Color & Illumination (No Reference) | Brightness Measure (BM) | Mean brightness intensity. | ❌ | ❌ | ☐ |
 | Color & Illumination (No Reference) | Statistical Naturalness (SN) | Evaluates how natural the illumination appears. | ❌ | ❌ | ☐ |
+| Color & Illumination (No Reference) |  no-reference low-light image enhancement evaluation (NLIEE). | Predict the quality of light-enhanced images | ❌ | ❌ | ✅ |
 | General Quality (No Reference) | BRISQUE | Blind quality evaluation using natural scene statistics. | ❌ | ❌ | ☐ |
 | General Quality (No Reference) | PIQE | Distortion-aware perceptual quality estimator. | ❌ | ❌ | ☐ |
 | General Quality (No Reference) | BIQI | Blind quality index based on natural image statistics. | ❌ | ❌ | ☐ |
 | General Quality (No Reference) | IL-NIQE | Local version of NIQE for spatial quality. | ❌ | ❌ | ☐ |
 | Underwater-Specific Metrics | EUV | Evaluates visibility of edges in underwater images. | ❌ | ✅ | ☐ |
 | Underwater-Specific Metrics | HLD | Measures haze-line distance reduction. | ❌ | ✅ | ☐ |
-| Underwater-Specific Metrics | UIQM | Underwater Image Quality Measure. | ❌ | ✅ | ☐ |
-| Underwater-Specific Metrics | UCIQE | Underwater Color Image Quality Evaluation. | ❌ | ✅ | ☐ |
+| Underwater-Specific Metrics | UIQM | Underwater Image Quality Measure. | ❌ | ✅ | ✅ |
+| Underwater-Specific Metrics | UCIQE | Underwater Color Image Quality Evaluation. | ❌ | ✅ | ✅ |
 | Underwater-Specific Metrics | UIEM | Evaluates color recovery and visibility. | ❌ | ✅ | ☐ |
 
 
